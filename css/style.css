@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: gray;
+}
+
+body {
+  background-color: blue;
+}
+
+p {
+  background-color: yellow;
+}
+
+ul {
+  background-color: brown;
+}
+
+section {
+  background-color: aqua;
+}
