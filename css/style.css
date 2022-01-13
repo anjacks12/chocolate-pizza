@@ -1,23 +1,72 @@
 * {
   box-sizing: border-box;
+  margin-left:50px;
+}
+#fadedDiv{
+  margin-left:50px;
+  background-color: darkgray;
+}
+#hero{
+  width:910px;
+}
+header {
+  display:flex;
+  margin-left: 50px;
+}
+body {
+  width:960px;
+}
+#socialMedia{
+  margin-left: 500px;
+}
+#shareOptions {
+  margin-left:50px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+h1{
+  font-size: 24pt;
 }
 
 div {
-  background-color: gray;
+  
 }
 
 body {
-  background-color: blue;
+  
 }
 
 p {
-  background-color: yellow;
+  
 }
 
 ul {
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 section {
-  background-color: aqua;
+  
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+} 
+input:hover{
+
+}
+
+fieldset{
+  background-image: url("/img/finishedpaper.jpg");
+  background-position: center;
+  background-size:auto;
+  background-size: 960px;
+  
+}
+fieldset ul {
+  display: inline-block;
+  justify-content: center;
+  margin-left:100px;
 }
